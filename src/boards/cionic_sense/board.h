@@ -31,16 +31,16 @@
 /* LED
  *------------------------------------------------------------------*/
 #define LEDS_NUMBER           2
-#define LED_PRIMARY_PIN       _PINNUM(1, 14)
-#define LED_SECONDARY_PIN     _PINNUM(1, 15)
+#define LED_PRIMARY_PIN       _PINNUM(1, 3)
+#define LED_SECONDARY_PIN     _PINNUM(1, 2)
 #define LED_STATE_ON          1
 
 /*------------------------------------------------------------------*/
 /* BUTTON
  *------------------------------------------------------------------*/
 #define BUTTONS_NUMBER        2
-#define BUTTON_1              _PINNUM(0, 28)
-#define BUTTON_2              _PINNUM(0, 02)
+#define BUTTON_1              _PINNUM(0, 16) // user switch
+#define BUTTON_2              _PINNUM(1, 15) // no connect
 #define BUTTON_PULL           NRF_GPIO_PIN_PULLUP
 
 //--------------------------------------------------------------------+
